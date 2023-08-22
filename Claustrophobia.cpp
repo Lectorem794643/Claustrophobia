@@ -177,6 +177,4 @@ int main() {
         clock_t endScript = clock(); printf("Algorithm operation time: %f seconds\n", (double)(endScript - startScript) / CLOCKS_PER_SEC);
     }
     clock_t end = clock(); printf("\nFull program execution time: %f seconds\n", (double)(end - start) / CLOCKS_PER_SEC);
-    int n;
-    cin >> n;
 }
